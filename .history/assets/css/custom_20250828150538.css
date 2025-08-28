@@ -1,0 +1,23 @@
+#header {
+  top: 0;
+}
+
+.khmer-font-nav{
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+    .khmer-font {
+        font-family: "Noto Serif Khmer", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+    }
+    .khmer-font-kulen{
+       font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+    }

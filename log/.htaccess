@@ -1,0 +1,6 @@
+# Deny public access
+Require all denied
+
+# Deny direct access
+Order allow,deny
+Deny from all
