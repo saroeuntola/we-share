@@ -8,7 +8,7 @@ $categoryModel = new Category();
 $subcategoryModel = new Subcategory();
 $postModel = new Post($lang);
 
-$categorySlug = "microsoft-office";
+$categorySlug = "ebook";
 
 // Get category by slug
 $programingCat = $categoryModel->getCategory($categorySlug);
@@ -66,7 +66,7 @@ if ($filterSubSlug) {
         </a>
 
         <div class=" justify-between items-center gap-4 mb-5">
-            <h2 class="lg:text-2xl text-[20px] font-bold text-white">Microsoft Office</h2>
+            <h2 class="lg:text-2xl text-[20px] font-bold text-white">Ebook</h2>
 
             <div id="subcategoryDropdown" class="flex flex-wrap gap-2 mt-4">
                 <a href="?sub="

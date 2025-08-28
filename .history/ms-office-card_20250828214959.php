@@ -4,7 +4,7 @@ $categoryModel = new Category();
 $subcategoryModel = new Subcategory();
 $postModel = new Post($lang);
 
-$categorySlug = "ebook";
+$categorySlug = "microsoft-office";
 
 $programingCat = $categoryModel->getCategory($categorySlug);
 if (!$programingCat) die("Category not found");
@@ -21,8 +21,8 @@ $posts = $filterSubSlug
 
 <section class="px-2">
     <div class="flex justify-between items-center">
-        <h1 class="text-xl lg:text-3xl md:text-2xl font-bold text-white"><?= $lang === 'en' ? 'Ebooks' : 'Ebooks' ?></h1>
-        <a href="ebook?lang=<?= $lang ?>"
+        <h1 class="text-xl lg:text-3xl md:text-2xl font-bold text-white"><?= $lang === 'en' ? 'Microsoft Office' : 'Microsoft Office' ?></h1>
+        <a href="ms-office?lang=<?= $lang ?>"
             class="inline-flex items-center justify-center text-center text-white hover:text-green-400 text-[15px] transition <?= $lang === 'kh' ? 'khmer-font' : '' ?> ">
             <?= $lang === 'en' ? 'See More' : 'មើលទាំងអស់' ?>
             <svg class="w-5 h-5 mt-[1px]" fill="none" stroke="currentColor" stroke-width="2"
@@ -49,7 +49,9 @@ $posts = $filterSubSlug
                     </div>
                 </div>
             </a>
-
+            if (!$programingCat) {
+            die("Category not found");
+            }
         <?php endforeach; ?>
 
     </div>

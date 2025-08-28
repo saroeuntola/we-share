@@ -8,7 +8,7 @@ $categoryModel = new Category();
 $subcategoryModel = new Subcategory();
 $postModel = new Post($lang);
 
-$categorySlug = "microsoft-office";
+$categorySlug = "ebook";
 
 // Get category by slug
 $programingCat = $categoryModel->getCategory($categorySlug);

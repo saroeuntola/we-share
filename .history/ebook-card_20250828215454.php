@@ -21,7 +21,7 @@ $posts = $filterSubSlug
 
 <section class="px-2">
     <div class="flex justify-between items-center">
-        <h1 class="text-xl lg:text-3xl md:text-2xl font-bold text-white"><?= $lang === 'en' ? 'Ebooks' : 'Ebooks' ?></h1>
+        <h1 class="text-xl lg:text-3xl md:text-2xl font-bold text-white"><?= $lang === 'en' ? 'Ebook' : 'Ebooks' ?></h1>
         <a href="ebook?lang=<?= $lang ?>"
             class="inline-flex items-center justify-center text-center text-white hover:text-green-400 text-[15px] transition <?= $lang === 'kh' ? 'khmer-font' : '' ?> ">
             <?= $lang === 'en' ? 'See More' : 'មើលទាំងអស់' ?>

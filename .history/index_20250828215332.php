@@ -79,7 +79,7 @@
         </section>
         <section class="mt-6">
             <?php
-            include 'ebook-card.php'
+            include 'ms-office-card.php'
             ?>
         </section>
     </main>

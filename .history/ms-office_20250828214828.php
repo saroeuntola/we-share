@@ -8,7 +8,7 @@ $categoryModel = new Category();
 $subcategoryModel = new Subcategory();
 $postModel = new Post($lang);
 
-$categorySlug = "microsoft-office";
+$categorySlug = "web-development";
 
 // Get category by slug
 $programingCat = $categoryModel->getCategory($categorySlug);
@@ -35,7 +35,7 @@ if ($filterSubSlug) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microsoft Office</title>
+    <title>Programming</title>
     <link rel="stylesheet" href="./assets/css/output.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
@@ -66,7 +66,7 @@ if ($filterSubSlug) {
         </a>
 
         <div class=" justify-between items-center gap-4 mb-5">
-            <h2 class="lg:text-2xl text-[20px] font-bold text-white">Microsoft Office</h2>
+            <h2 class="lg:text-2xl text-[20px] font-bold text-white">Web Development</h2>
 
             <div id="subcategoryDropdown" class="flex flex-wrap gap-2 mt-4">
                 <a href="?sub="
