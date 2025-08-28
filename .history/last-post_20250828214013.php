@@ -151,7 +151,7 @@ usort($allPosts, fn($a, $b) => strtotime($b['created_at']) - strtotime($a['creat
         <?php endforeach; ?>
     </div>
 
-    <section>
+    <section class="mt-6">
         <?php include 'footer.php' ?>
     </section>
     <script>

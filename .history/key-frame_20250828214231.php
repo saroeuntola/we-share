@@ -181,6 +181,6 @@
     <div class="announcement-icon"><i class="fas fa-bullhorn"></i></div>
     <div class="container">
         <!-- Sliding text -->
-        <p class="announcement<?= $lang === 'kh' ? '' : '' ?>"><?= $lang === 'en' ? 'Welcome! Download free PDF documents, study materials, and guides for learning.' : 'សូមស្វាគមន៍! អ្នកអាចទាញយកឯកសារ PDF សម្រាប់សិក្សា និងយល់ដឹងបន្ថែមពីមុខវិជ្ជាទាំងអស់ដោយឥតគិតថ្លៃ។' ?></p>
+        <p class="announcement<?= $lang === 'kh' ? 'khmer-font-nav' : '' ?>"><?= $lang === 'en' ? 'Welcome! Download free PDF documents, study materials, and guides for learning.' : 'សូមស្វាគមន៍! អ្នកអាចទាញយកឯកសារ PDF សម្រាប់សិក្សា និងយល់ដឹងបន្ថែមពីមុខវិជ្ជាទាំងអស់ដោយឥតគិតថ្លៃ។' ?></p>
     </div>
 </div>

@@ -114,7 +114,7 @@ $relatedPosts = array_slice($relatedPosts, 0, 8);
             </div>
         <?php endif; ?>
     </main>
-    <section class="">
+    <section class="mt-4">
         <?php include 'footer.php' ?>
     </section>
 </body>

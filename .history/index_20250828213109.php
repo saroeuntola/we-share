@@ -79,9 +79,9 @@
         </section>
     </main>
     <section class="mt-6">
-        <?php include 'footer.php' ?>
+        
     </section>
-
+    <?php include 'footer.php' ?>
 </body>
 
 </html>

@@ -127,6 +127,18 @@
 
     }
 
+    .khmer-font-kulen {
+        font-family: "Koulen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        display: inline-block;
+        white-space: nowrap;
+        animation: slideLeftToRight 20s linear infinite;
+    }
+
     /* Desktop animation */
     @keyframes slideLeftToRight {
         0% {
@@ -181,6 +193,6 @@
     <div class="announcement-icon"><i class="fas fa-bullhorn"></i></div>
     <div class="container">
         <!-- Sliding text -->
-        <p class="announcement<?= $lang === 'kh' ? '' : '' ?>"><?= $lang === 'en' ? 'Welcome! Download free PDF documents, study materials, and guides for learning.' : 'សូមស្វាគមន៍! អ្នកអាចទាញយកឯកសារ PDF សម្រាប់សិក្សា និងយល់ដឹងបន្ថែមពីមុខវិជ្ជាទាំងអស់ដោយឥតគិតថ្លៃ។' ?></p>
+        <p class="announcement<?= $lang === 'kh' ? 'khmer-font' : '' ?>"><?= $lang === 'en' ? 'Welcome! Download free PDF documents, study materials, and guides for learning.' : 'សូមស្វាគមន៍! អ្នកអាចទាញយកឯកសារ PDF សម្រាប់សិក្សា និងយល់ដឹងបន្ថែមពីមុខវិជ្ជាទាំងអស់ដោយឥតគិតថ្លៃ។' ?></p>
     </div>
 </div>
