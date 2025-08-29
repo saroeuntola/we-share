@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 ">
 
         <!-- About -->
-        <div class="mt-6 me-4">
+        <div class="mt-4 me-4">
             <h2 class="text-lg font-semibold text-white mb-2">We Share</h2>
             <p class="text-sm leading-relaxed text-wrap <?= $lang === 'kh' ? 'khmer-font' : '' ?>">
                 <?= $lang === 'en' ? 'We Share is a free platform offering Khmer-language documents, IT document, and free PDF downloads. Our goal is to provide accessible learning materials to everyone and promote knowledge sharing across all fields.' : 'We Share គឺជាវែបសាយមួយដែលផ្តល់ឯកសារភាសាខ្មែរ ឯកសារ IT និង ទាញយក PDF ដោយឥតគិតថ្លៃ។ គោលបំណងរបស់យើងគឺចែករំលែកឯកសារសម្រាប់ការសិក្សា និងការស្វែងយល់សម្រាប់មនុស្សគ្រប់គ្នា។' ?>
@@ -20,8 +20,7 @@
             </ul>
         </div>
 
-        <!-- Resources -->
-        <div class="mt-6">
+        <div class="mt-4">
 
             <h2 class="text-lg font-semibold text-white mb-2 <?= $lang === 'kh' ? 'khmer-font-kulen' : '' ?>"><?= $lang === 'en' ? 'Documents' : 'ឯកសារ' ?></h2>
             <ul class="space-y-2 text-sm">
@@ -36,7 +35,7 @@
             </ul>
         </div>
         <!-- Social Media -->
-        <div class="mt-6">
+        <div class="mt-4">
             <h2 class="text-lg font-semibold text-white mb-2 <?= $lang === 'kh' ? 'khmer-font-kulen' : '' ?>"><?= $lang === 'en' ? 'Follow us' : 'តាមដានពួកយើង' ?></h2>
             <div class="flex space-x-4">
                 <a href="#" class="hover:text-green-400"><i class="fab fa-facebook fa-lg"></i></a>
@@ -55,8 +54,3 @@
         © <span id="year"></span> We Share. All rights reserved. | Made with ❤️ for learners in Cambodia
     </div>
 </footer>
-
-<script>
-    // auto-update year
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>

@@ -7,7 +7,6 @@
   <title>404 Page Not Found</title>
   <!-- SEO Meta Tags -->
   <meta name="description" content="Oops! The page you are looking for does not exist. Return to our homepage and try again.">
-  <meta name="robots" content="noindex, follow">
 
   <!-- Social Sharing -->
   <meta property="og:title" content="404 Page Not Found">
